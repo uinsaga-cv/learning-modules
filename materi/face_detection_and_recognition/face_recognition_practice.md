@@ -77,6 +77,7 @@ Untuk pengenalan wajah (recognition), kita menggunakan:
 ⚠️ Pastikan sudah install:
 
 ```bash
+pip uninstall opencv-python #kalo ada
 pip install opencv-contrib-python
 ```
 
