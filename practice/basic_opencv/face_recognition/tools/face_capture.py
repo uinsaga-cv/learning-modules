@@ -4,7 +4,7 @@ import os
 face_cascade = cv2.CascadeClassifier("../assets/haarcascade_frontalface_default.xml")
 cam = cv2.VideoCapture(0)
 
-person_name = "jehan"
+person_name = "zidan"
 save_dir = f"../dataset/{person_name}"
 os.makedirs(save_dir, exist_ok=True)
 

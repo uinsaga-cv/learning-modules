@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-url = "https://www.1zoom.me/en/s/Celebrities-Angelina_Jolie/t2/1/"
-save_dir = "dataset/angelina_jolly"
+url = "https://www.1zoom.me/en/s/Celebrities-Jennifer_Lawrence/t2/1/"
+save_dir = "raw_dataset/JenniferLawrence"
 
 os.makedirs(save_dir, exist_ok=True)
 
@@ -20,7 +20,7 @@ for img in images:
     # if src and "/big/" not in src:  # skip template images
     try:
         img_data = requests.get(src).content
-        filename = os.path.join(save_dir, f"aj_{count}.jpg")
+        filename = os.path.join(save_dir, f"jl_{count}.jpg")
         with open(filename, "wb") as f:
             f.write(img_data)
         print("saved:", filename)

@@ -1,9 +1,3 @@
-Baik — berikut penjelasan **super lengkap & mendalam** tentang setiap bagian modul face recognition berbasis OpenCV LBPH, mulai dari bagaimana dataset dibuat → diload → dilatih → diuji pada image → diuji pada video.
-
-Ini bukan sekadar menjelaskan “kodenya ngapain”, tapi **mekanisme internal**, **flow data**, dan **konsep komputernya**.
-
----
-
 # 🎯 **1. MODULE: Dataset Creation (Capture Wajah & Simpan ke Folder)**
 
 ## 📌 Tujuan
